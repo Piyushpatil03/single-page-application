@@ -1,0 +1,14 @@
+.card_container{
+    padding: 20px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    border-right: 1px solid rgb(233, 233, 233);
+    text-align: left;
+}
+
+.elipses {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

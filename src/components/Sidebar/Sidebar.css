@@ -1,0 +1,8 @@
+.sidebar{
+    width: 25%;
+    overflow-y: auto;
+    cursor: pointer;
+    height: 100vh;
+    position: sticky; 
+    top: 0;
+}

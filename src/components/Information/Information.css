@@ -1,0 +1,33 @@
+.info_container {
+  padding: 70px;
+  overflow-y: auto; 
+  flex: 1;
+}
+
+.h3 {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.p {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 20px;
+}
+
+.grid-item {
+  overflow: hidden;
+}
+
+.grid-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
